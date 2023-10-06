@@ -113,7 +113,7 @@ img {
 
 .header-nav-item {
   padding: 24px 0;
-  color: #404bbf;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -123,9 +123,23 @@ img {
   align-self: center;
   position: relative;
 }
+.header-nav-items-item {
+  color: #404bbf;
+}
+
 .header-nav-item:hover,
 :focus {
   color: #404bbf;
+}
+.header-nav-items-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 48px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .header-nav-item:hover::after {
   content: "";
