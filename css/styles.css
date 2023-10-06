@@ -110,6 +110,9 @@ img {
 .logo-part-header {
   color: #2e2f42;
 }
+.header-nav-items-item {
+  color: #404bbf;
+}
 .header-nav-item {
   padding: 24px 0;
   color: #2e2f42;
@@ -122,10 +125,6 @@ img {
   align-self: center;
   position: relative;
 }
-.header-nav-items-item {
-  color: #404bbf;
-}
-
 .header-nav-item:hover,
 :focus {
   color: #404bbf;
