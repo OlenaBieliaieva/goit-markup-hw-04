@@ -110,9 +110,6 @@ img {
 .logo-part-header {
   color: #2e2f42;
 }
-.header-nav-items-item {
-  color: #404bbf;
-}
 .header-nav-item {
   padding: 24px 0;
   color: #2e2f42;
@@ -129,7 +126,10 @@ img {
 :focus {
   color: #404bbf;
 }
-.header-nav-item:hover::after {
+.current {
+  color: #404bbf;
+}
+.current:hover::after {
   content: "";
   position: absolute;
   left: 0;
