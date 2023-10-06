@@ -122,10 +122,7 @@ img {
   align-self: center;
   position: relative;
 }
-.header-nav-item:hover,
-:focus {
-  color: #404bbf;
-}
+
 .current {
   color: #404bbf;
 }
@@ -250,12 +247,12 @@ img {
   padding: 24px 100px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  fill: #f4f4fd;
   width: 264px;
   height: 112px;
   flex-shrink: 0;
   margin-bottom: 8px;
   background-color: #f4f4fd;
+  gap: 24px;
 }
 /*------------------------------------------------------------*/
 
