@@ -452,7 +452,7 @@ img {
 }
 
 .footer-socials-link:hover,
-.footer-socials-link:focus {
+.footer-socials-link:active {
   background-color: #31ddaa;
 }
 .footer-socials-link:hover .socials-icon {
