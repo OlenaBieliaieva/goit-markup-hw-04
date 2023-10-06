@@ -110,7 +110,6 @@ img {
 .logo-part-header {
   color: #2e2f42;
 }
-
 .header-nav-item {
   padding: 24px 0;
   color: #2e2f42;
@@ -131,16 +130,6 @@ img {
 :focus {
   color: #404bbf;
 }
-.header-nav-items-item::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  width: 48px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
 .header-nav-item:hover::after {
   content: "";
   position: absolute;
@@ -151,7 +140,6 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
-
 .header-contacts {
   font-style: normal;
 }
