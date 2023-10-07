@@ -295,13 +295,9 @@ img {
   text-align: center;
 }
 .our-team-section-socials-icons {
-  display: flex;
   justify-content: center;
   gap: 24px;
   max-width: calc((100%-72px) / 4);
-  padding: 8px 16px 0 16px;
-}
-.our-team-section-socials-icon {
 }
 .socials-icon {
   fill: #f4f4fd;
