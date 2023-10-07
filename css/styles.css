@@ -298,7 +298,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  max-width: calc((100%-72px) / 4);
 }
 .socials-icon {
   fill: #f4f4fd;
